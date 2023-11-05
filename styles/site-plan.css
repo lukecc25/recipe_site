@@ -169,3 +169,10 @@
     border-top: 1px solid;
     border-right: 1px solid;
   }
+  #photo1{
+    width: 300px;
+  }
+  #photo2{
+    width: 300px;
+    margin: 0 auto;
+  }
