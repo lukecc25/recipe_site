@@ -94,6 +94,23 @@ footer{
   font-size: 20px;
   margin: 20px auto;
 }
-
-
+.ingredients{
+  font-size: large;
+  text-align: center;
+  border-top: cadetblue ;
+  border-style: double;
+  margin: 0 auto;
+  width: 40%;
+}
+.instructions{
+  text-align: center;
+  font-size: x-large;
+  color: #180052;
+  width: 60%;
+  margin: 0 auto;
+}
+.steps{
+  text-align: center;
+  font-size: large;
+}
 /* Learn grid for pics to be on both sides of the site */
