@@ -9,6 +9,7 @@
 <body>
     <header>
         <nav>
+            <img class="logo-nav" src="photos/recipe_logo.png" alt="Logo image">
             <a href="index.html">Home</a>
             <a href="about_site.html">About Site</a>
             <a href="recipes.html">Recipes</a>
@@ -18,23 +19,43 @@
        
     </header>
     <main> 
-
-        <div>
-            <img id="ribs" src="photos/ribs.jpeg" alt="Home made ribs by Dorothy Campbell">
-        </div>
-        <div> 
-        <h1>Main Dish Most Liked</h1>
-        <a href="hawaiian_sliders.html">Hawaiian Sliders</a>
-        <h2>Glutten Free Dish Most Liked</h2>
-        <p>To Be discussed</p>
-        <h1>Dessert Most Liked</h1>
-        <a href="pie_crust.html">Dorothy's Pie Crust</a>
-        <h2>Glutten Free Dessert Most Liked</h2>
-        <p>To Be discussed</p>
-        </div>
-        <div id="con">
-            <img id="blue_bread" src="photos/blueberry_cheesecake_bread.jpg" alt="Home made blueberry cheesecake bread by Luke Campbell">
-        </div>
+        <section id="grid">
+            <div>
+                <img id="left-side-photo" src="photos/ribs.jpeg" alt="Home made ribs by Dorothy Campbell">
+            </div>
+            <section>
+                <div class="background">
+                    <h4>Latest</h4>
+                    <p>
+                        Here you can see the most recently added recipes to the site.
+                        If you are interested in cooking something new then scroll down!
+                    </p>
+                </div>
+                <div class="favorite-list">
+                    <h1>Main Dish Most Liked</h1>
+                    <a href="hawaiian_sliders.html">Hawaiian Sliders</a>
+                    <h2>Glutten Free Dish Most Liked</h2>
+                    <p>To Be discussed</p>
+                    <h1>Dessert Most Liked</h1>
+                    <a href="pie_crust.html">Dorothy's Pie Crust</a>
+                    <h2>Glutten Free Dessert Most Liked</h2>
+                    <p>To Be discussed</p>
+                </div>
+                <div class="background">
+                <h4>Add Recipe</h4>
+                <p>
+                    If you are interested in adding a recipe then click the button labeled "Add Recipe" above. 
+                    This will let you send an email to us. <br>
+                    In the email please give us a brief description about your recipe and what category it falls under, in order to place it into the right recipe list.
+                    Next, please give us a list of ingredients and their measurements. Finally, please send us a step by step instructions on how to make the specified recipe.
+                    Once done please put your name or an alias you wish to be called in order to give credit where credit is due on the site.
+                </p>
+                </div>
+            </section>
+            <div id="con">
+                <img id="right-side-photo" src="photos/blueberry_cheesecake_bread.jpg" alt="Home made blueberry cheesecake bread by Luke Campbell">
+            </div>
+    </section>
     </main>
     <footer>
         <p>Luke Campbell 2023 &copy;</p>
