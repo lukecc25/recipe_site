@@ -127,4 +127,9 @@ footer{
   text-align: center;
   font-size: large;
 }
+#site-plan-link{
+  background-color: #180052;
+  color: #03aeba;
+  padding: 10px;
+}
 /* Learn grid for pics to be on both sides of the site */
