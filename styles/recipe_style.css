@@ -81,10 +81,17 @@ h2{
   color: #03aeba;
   -webkit-text-stroke: .5px #000000;
 }
-button{
+.button-box{
+  padding: 10px;
+  text-align: center;
   background-color: #093012;
   color: #03aeba;
   font-size: x-large;
+  border-radius: 100%;
+}
+.button-box:hover{
+  background-color: #0a761a;
+  border-radius: 100%;
 }
 h4{
   font-size: x-large;
