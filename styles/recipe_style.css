@@ -47,6 +47,8 @@ main{
 }
 .background p{
   border: solid 2px #093012;
+  padding: 10px;
+  margin: 10px;
   background-color: #0a761a;
   color: #03aeba;
 }
@@ -78,6 +80,11 @@ h2{
   text-align: center;
   color: #03aeba;
   -webkit-text-stroke: .5px #000000;
+}
+button{
+  background-color: #093012;
+  color: #03aeba;
+  font-size: x-large;
 }
 h4{
   font-size: x-large;
