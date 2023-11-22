@@ -41,6 +41,10 @@ a:hover {
 main{
   font-family: 'Times New Roman', Times, serif;
 }
+.logo-div{
+  text-align: center;
+  margin: 0 auto;
+}
 .logo-main{
   width: 30em;
   height: 18em;
