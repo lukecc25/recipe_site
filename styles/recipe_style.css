@@ -3,11 +3,14 @@ header{
 }
 .title{
   text-align: center;
+  font-size: xx-large;
+  color: rgb(71, 197, 255);
+  -webkit-text-stroke: .7px #093012;
+  background-color: #0a761a;
 }
 nav {
   text-align: center;
   background-color: #0a761a;
-  color: #e6e6e6;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -24,7 +27,7 @@ nav a {
   padding: 10px;
 }
 nav a:link, nav a:visited {
-  color: rgb(148, 232, 255);
+  color: #e6e6e6;
 }
 nav a:hover {
   color: rgb(148, 232, 255);
@@ -54,7 +57,7 @@ main{
   padding: 10px;
   margin: 10px;
   background-color: #0a761a;
-  color: #03aeba;
+  color: rgb(71, 197, 255);
 }
 .favorite-list{
   color: rgb(71, 197, 255);
@@ -74,16 +77,19 @@ img{
   grid-column: 1;
 }
 body{
-  background-color: rgba(0, 255, 145, 0.516);
+  background-color: rgba(0, 255, 145, 0.3);
 }
 h1{
   text-align: center;
-  color: rgb(4, 9, 69);
+  color: #164a09;
+  font-size: larger;
+  -webkit-text-stroke: .5px #000000;
 }
 h2{
   text-align: center;
   color: #03aeba;
   -webkit-text-stroke: .5px #000000;
+  font-size: larger;
 }
 .button-box{
   padding: 10px;
@@ -92,21 +98,34 @@ h2{
   color: #03aeba;
   font-size: x-large;
   border-radius: 100%;
+  margin-bottom: 1em;
 }
 .button-box:hover{
   background-color: #0a761a;
   border-radius: 100%;
 }
 h4{
+  color: #164a09; 
   font-size: x-large;
   text-align: center;
+}
+.recipe-titles h1, h2{
+  background-color: #0a761a;
+  -webkit-text-stroke: .3px #093012;
+  color: rgb(71, 197, 255);
 }
 p{
   text-align: center;
   font-size: large;
-  color: #093012;
+  color: #164a09;
   margin: 0;
   -webkit-text-stroke: .1px #000000;
+}
+.about-site p{
+  border: solid 2px #093012; 
+  padding: 2px;
+  color: rgb(71, 197, 255);
+  background-color: #0a761a;
 }
 footer{
   font-size: 20px;
@@ -136,4 +155,3 @@ footer{
   color: #03aeba;
   padding: 10px;
 }
-/* Learn grid for pics to be on both sides of the site */
